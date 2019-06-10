@@ -1,17 +1,21 @@
 body
 {
+	/*Lets the navigation bar stretch to both ends of the screen*/
 	margin:0;
 	padding:0;
+	/*Puts background image on the website*/
 	background-image: url("background.jpg");
 }
 
 h2>a
 {
+	/*Gets ride of line under link and makes it black*/
 	text-decoration:none;
 	color:black;
 }
 
-h2{
+h2
+{
 	font-family:"Arial", serif; 
 	font-size:150%;
 	text-align:center;
@@ -28,23 +32,12 @@ img
 	display:block;
 }
 
-.wrap-right
-{
-	float:right;
-	margin:4px;
-}
-
-.wrap-left
-{
-	float:left;
-	margin:4px;
-}
-
 p
 {
 font-family:georgia,serif;
 }
 
+/*Puts a logo at the top left-side of the website*/
 .logo
 {
 	font-size:150%;
@@ -57,26 +50,35 @@ font-family:georgia,serif;
 
 .navbar1
 {
+	/*Lets blue stretch across the screen*/
 	background-color:lightblue;
-	color:white;
+	/*Gets rid of numbers/bullet points*/
 	list-style:none;
-	text-align:center;
+	/*Aligns text to the right*/
+	text-align:right;
+	/*Stretches the padding above and below the navigation bar*/
 	padding:20px 0 20px 0;
 }
 
 .navbar1>li
 {
+	/*Elements sit next to each other*/
 	display:inline-block;
+	/*Spaces the padding of the element 50 pixels to the right*/
 	padding-right:50px;
 }
 
 .navbar1>li>a
 {
+	/*Gets ride of the line under the font*/
 	text-decoration:none;
+	/*Makes the elements in the navigation bar black*/
 	color:black;
+	/*Makes the elements bold*/
 	font-weight: bold;
 }
 
+/*Makes a second navigation bar under the first one whith internal links*/
 .navbar
 {
 	color:black;

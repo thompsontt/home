@@ -1,7 +1,9 @@
 body
 {
+	/*Lets the navigation bar stretch to both ends of the screen*/
 	margin:0;
 	padding:0;
+	/*Puts background image on the website*/
 	background-image: url("background.jpg");
 }
 
@@ -13,6 +15,8 @@ body
 	padding :0 5px ;
 	margin : 20px 10px ;
 }
+
+/*Formats paragraph*/
 .service1>p
 {
 	font-size:14px;
@@ -20,6 +24,7 @@ body
 	max-width:250px;
 }
 
+/*Moves the service boxes to the center ands sets width of element*/
 .services
 {
 	width:1000px;
@@ -28,6 +33,7 @@ body
 
 h1
 {
+	/*Formats the service box headings*/
 	font-size:16px;
 	font-weight:bold;
 	background-color:gray;
@@ -36,20 +42,18 @@ h1
 	margin:0 -6px;
 }
 
-.image
-{
-	max-width:200px;
-	margin:15px 0 0 0;
-}
+
 
 .heading
 {
+	/*Formats the service heading over the service boxes*/
 	text-align:center;
 	font-size:25px;
 	color:gray;
 	margin:10px 0 50px 0;
 }
 
+/*Puts a logo at the side of the website*/
 .logo
 {
 	font-size:150%;
@@ -62,23 +66,31 @@ h1
 
 .navbar
 {
+	/*Lets blue stretch across the screen*/
 	background-color:lightblue;
-	color:black;
+	/*Gets rid of numbers/bullet points*/
 	list-style:none;
+	/*Aligns text to the right*/
 	text-align:right;
+	/*Stretches the padding above and below the navigation bar*/
 	padding:20px 0 20px 0;
 }
 
 .navbar>li
 {
+	/*Elements sit next to each other*/
 	display:inline-block;
+	/*Spaces the padding of the element 50 pixels to the right*/
 	padding-right:50px;
 }
 
 .navbar>li>a
 {
+	/*Gets ride of the line under the font*/
 	text-decoration:none;
+	/*Makes the elements in the navigation bar black*/
 	color:black;
+	/*Makes the elements bold*/
 	font-weight: bold;
 }
 
