@@ -73,7 +73,7 @@ h1
 {
 	display:inline-block;
 	padding-right:50px;
-	margin:auto;
+	position:fixed;
 }
 
 .navbar>li>a
